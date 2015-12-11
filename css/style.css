@@ -1,8 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Kreon:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
 
 body {
-  background: url("../img/pw_maze_white_@2X.png");
   font-family: 'Open Sans', sans-serif;
   color: #222;
   font-weight: 400;
@@ -10,61 +9,167 @@ body {
 }
 
 #container {
-  background-color: rgba(255,255,255,0.5);
-  margin: 4em;
-  width: 960 px;
-  border: 1px dashed #222;
-  padding-left:4em;
-  padding-right: 4em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  width: 770px;
+  margin: 0 auto;
 }
 
-img {
-  border: 1px solid #222;
-  float: right;
-}
-
-header h1 {
-  font-family: 'Kreon', serif;
+#mainheader {
+  font-family: 'Bad Script', cursive;
   font-weight: 700;
   margin-bottom: 7px;
   font-size: 50px;
-  color: #0C3D77
+  color: #13BDE5;
+  text-align: center;
 }
 
-h2, h3, {
+#mainheader a {
+  text-decoration: none;
+  color: #13BDE5;
+}
+#mainnav ul {
+  list-style: none;
+  padding-left: 0;
+  width: 316px;
+  margin: 0 auto 20px auto;
+}
+
+#mainnav li {
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+}
+
+#mainnav a {
+  text-decoration: none;
+  color: #4A4C4C;
+}
+
+#mainnav a:hover {
+  color: #B4B5B5;
+}
+a{
+  color: #AA3BF2;
+}
+
+ }
+a:visited {
+  text-decoration:none;
+}
+
+#home h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 30px;
+  color: #000000;
+}
+
+#projectlink {
+  color:#13BDE5;
+}
+#images {
+  width: 750px;
+}
+
+#images img{
+  width:250px;
+  padding:0;
+  display: block;
+  float: left;
+}
+
+#resume h2, h3, {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
-h2 {
-  color: #0C3D77
+#resume h2 {
+  color: #13BDE5;
 }
-
-p {
+#resume p {
   line-height: 0.5;
 }
 
-h3{
+#resume h3{
   padding: 0px;
   margin: 0px;
 }
 
-h4 {
+#resume h4 {
   padding: 0px;
   margin: 0px;
 }
 
-li {
+#resume li {
   line-height: 1.5;
 }
 
-ol, ul,
+#resume ol, ul,
 li {
   list-style-type: circle;
 }
 
-dt {
+#resume dt {
   text-decoration: underline;
+}
+
+#resume nav {
+  text-decoration: underline;
+}
+
+#video {
+  width: 790px;
+}
+
+#video h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 30px;
+  color: #000000;
+}
+
+#video h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #13BDE5;
+}
+
+#video p {
+  width: 560px;
+}
+
+#projects h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 30px;
+  color: #000000;
+}
+#projects h3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #13BDE5;
+}
+
+.photos {
+  width: 770px;
+  overflow: auto;
+}
+
+.india {
+  width: 250px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+img:nth-child(3n).india {
+  margin-right: 0;
+}
+
+#contacttext {
+  float: right;
+  padding-right: 200px;
 }

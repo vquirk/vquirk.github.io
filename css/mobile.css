@@ -1,0 +1,46 @@
+@media (max-width: 320px) {
+  body {
+    margin: 0;
+  }
+  #container {
+    width: 300px;
+    margin: 0;
+    padding:0 10px;
+  }
+
+  #images {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  #images img:first-of-type,
+  #images img:last-of-type {
+    display: none;
+
+  }
+  #resume p {
+    line-height: 1.5;
+  }
+
+  #contacttext {
+    float: none;
+    padding-right: 0;
+  }
+
+  ul#mainnav {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  #mainnav li{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  #mainnav li.mobile{
+    display: none;
+  }
+}
